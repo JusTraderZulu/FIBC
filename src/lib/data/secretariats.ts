@@ -1,0 +1,167 @@
+// Fellowship Secretariats - Enhanced with detailed information and seal support
+import { OrgItem } from "../types";
+
+export const SECRETARIATS: OrgItem[] = [
+  {
+    id: "restoration-healing-reconciliation",
+    slug: "restoration-healing-reconciliation",
+    name: "Restoration, Healing, and Reconciliation Ministries",
+    blurb: "Pastoral care, reconciliation, and healing ministries.",
+    description: "Specialized ministry providing pastoral care, healing services, reconciliation processes, and restoration programs across the Fellowship.",
+    responsibilities: [
+      "Pastoral care and spiritual counseling",
+      "Healing ministry coordination and training",
+      "Reconciliation process facilitation",
+      "Restoration program development and implementation",
+      "Crisis intervention and support services",
+      "Therapeutic ministry oversight and guidance"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "social-outreach-community-development",
+    slug: "social-outreach-community-development",
+    name: "Social Outreach, Community Involvement, and Development",
+    blurb: "Social programs, empowerment, and outreach.",
+    description: "Community engagement arm coordinating social programs, community development initiatives, and outreach efforts across local and worldwide communities.",
+    responsibilities: [
+      "Social program development and coordination",
+      "Community empowerment and development",
+      "Outreach strategy and implementation",
+      "Social justice advocacy and action",
+      "Community partnership development",
+      "Humanitarian aid and disaster response"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "planning-development-protocol",
+    slug: "planning-development-protocol",
+    name: "Planning, Development, and Protocol Management",
+    blurb: "Strategic planning, project management, and Assembly protocols.",
+    description: "Strategic coordination center managing organizational planning, development projects, and protocol standards for Assembly and governance activities.",
+    responsibilities: [
+      "Strategic planning and organizational development",
+      "Project management and coordination",
+      "Assembly protocol development and management",
+      "Governance procedure standardization",
+      "Development program oversight",
+      "Protocol training and implementation"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "ict-ai-digital-transformation",
+    slug: "ict-ai-digital-transformation",
+    name: "ICT, AI, and Digital Transformation",
+    blurb: "Digital innovation, systems, and Apostolic Digital Integration (Project Genesis).",
+    description: "Technology leadership driving digital transformation, AI integration, and innovative technology solutions through Project Genesis and beyond.",
+    responsibilities: [
+      "Digital transformation strategy and implementation",
+      "AI and machine learning integration",
+      "Information systems management and security",
+      "Technology innovation and development",
+      "Digital infrastructure and platform management",
+      "Project Genesis coordination and oversight"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "innovative-business-enterprise",
+    slug: "innovative-business-enterprise",
+    name: "Innovative Business Enterprise and Development",
+    blurb: "Entrepreneurship, investments, and worldwide business expansion.",
+    description: "Enterprise development wing fostering innovation, entrepreneurship, business expansion, and investment opportunities across the Fellowship.",
+    responsibilities: [
+      "Business enterprise development and support",
+      "Investment strategy and portfolio management",
+      "Entrepreneurship training and mentorship",
+      "Worldwide business expansion coordination",
+      "Innovation incubation and development",
+      "Economic development and job creation"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "finance-budgeting-reporting",
+    slug: "finance-budgeting-reporting",
+    name: "Finance, Budgeting, and Reporting",
+    blurb: "Budgets, financial statements, and accountability.",
+    description: "Financial management center ensuring fiscal responsibility, transparent reporting, budget coordination, and financial accountability across the Fellowship.",
+    responsibilities: [
+      "Financial planning and budget development",
+      "Financial reporting and transparency",
+      "Accounting and financial record management",
+      "Financial policy development and compliance",
+      "Budget coordination and oversight",
+      "Financial audit and accountability systems"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "compliance-governance",
+    slug: "compliance-governance",
+    name: "Compliance and Governance",
+    blurb: "Integrity, compliance, and transparency in administration.",
+    description: "Governance oversight ensuring organizational integrity, regulatory compliance, transparency standards, and ethical administration across all Fellowship operations.",
+    responsibilities: [
+      "Compliance monitoring and oversight",
+      "Governance standards development and implementation",
+      "Integrity and ethics enforcement",
+      "Transparency and accountability systems",
+      "Regulatory compliance coordination",
+      "Administrative policy development and review"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "general-assembly-protocol-affairs",
+    slug: "general-assembly-protocol-affairs",
+    name: "General Assembly and Protocol Affairs",
+    blurb: "Organising bi-annual General Assemblies and governance sessions.",
+    description: "Assembly coordination office organizing bi-annual General Assemblies, governance sessions, and protocol management for major Fellowship gatherings.",
+    responsibilities: [
+      "General Assembly planning and coordination",
+      "Governance session organization and management",
+      "Protocol development and implementation",
+      "Assembly logistics and venue management",
+      "Delegate coordination and communication",
+      "Assembly documentation and record keeping"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+  {
+    id: "chaplaincy-administration",
+    slug: "chaplaincy-administration",
+    name: "Chaplaincy Administration",
+    blurb: "Training, commissioning, and oversight of chaplains in hospitals, schools, and civic spaces.",
+    description: "Chaplaincy coordination office managing training, commissioning, and oversight of chaplains serving in hospitals, schools, civic institutions, and community spaces.",
+    responsibilities: [
+      "Chaplain training and certification programs",
+      "Chaplaincy commissioning and appointment",
+      "Chaplain oversight and support",
+      "Institutional chaplaincy coordination",
+      "Chaplaincy standards and protocol development",
+      "Spiritual care program development and management"
+    ],
+    leadership: [],
+    established: "1995",
+    seal: null,
+  },
+];

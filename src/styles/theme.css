@@ -1,0 +1,18 @@
+/* Design tokens from REFERENCE.pdf */
+:root {
+  --brand: 210 45% 35%; /* Metallic steel blue */
+  --accent: 46 90% 50%;
+  --ink: 222 47% 11%;
+  --paper: 0 0% 100%;
+  --radius: 1rem;
+}
+
+/* Focus ring */
+:where(:focus-visible) {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 2px;
+}
+
+
+
+
